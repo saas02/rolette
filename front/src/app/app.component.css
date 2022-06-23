@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  font-family: sans-serif;
+  height: 100%;
+  background: dodgerblue;
+}
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

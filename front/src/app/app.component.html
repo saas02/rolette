@@ -1,0 +1,16 @@
+
+<div class="container">
+  <ngx-loading-x [show]="load"></ngx-loading-x>
+</div>
+<div class="container">  
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <div class="d-grid gap-2">
+    <select  class="form-select" aria-label="Default select example" id="alimentos" (change)="onChangeType($event)">
+      <option value="cereal">Cereales</option>
+      <option value="verdura">Verduras</option>
+      <option value="hortaliza">Hortalizas</option>
+      <option value="proteina">Proteinas</option>
+    </select>
+    <input type="button" value="Start" style="float:left;" id='spin' (click)="spin()" class="btn btn-success" />
+  </div>  
+</div>
